@@ -6,13 +6,16 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
   <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="second.css">
   <title>HTML Portfolio</title>
 </head>
 <body>
+  <!-- Hero Unit -->
+  <div class="jumbotron">
+
+  </div>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-inverse">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -22,7 +25,6 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Dara Hoy</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,52 +40,51 @@
     <!-- /.container-fluid -->
   </nav>
 
-<div class="hero">
-  <!-- <img src="http://i.imgur.com/SOSlQJp.jpg" alt="black and white photo of Dara"> -->
-</div>
-
-<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
-    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Who I am</h1>
-          <p>Hi, my name is Dara Hoy and I love learning code. I love solving code challenges and making beautiful front-ends.</p>
+  <!-- Carousel -->
+  <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+      <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Who I am</h1>
+            <p>Hi, my name is Dara Hoy and I love learning code. I love solving code challenges and making beautiful front-ends.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>What I do</h1>
+            <p>I am a full stack web developer who loves writing code for front-end UI's, following style guides, and best practices!</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>What I've done</h1>
+            <p>I have just started out as a developer and I already have a few projects that I am excited to share!</p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="item">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>What I do</h1>
-          <p>I am a full stack web developer who loves writing code for front-end UI's, following style guides, and best practices!</p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>What I've done</h1>
-          <p>I have just started out as a developer and I already have a few projects that I am excited to share!</p>
-        </div>
-      </div>
-    </div>
+    <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+
+
 
 <!-- About Me -->
 <div class="container">

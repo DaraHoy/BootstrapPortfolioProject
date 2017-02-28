@@ -2,9 +2,22 @@
 -------------------------------------------------- */
 
 .navbar {
-  margin-bottom: 0;
+  border-radius: 0px;
+  border: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
 }
+.navbar-default {
+    background-color: #1E1E24;
+    border-color: #fff;
+}
+.navbar {
 
+}
+.navbar > a {
+  color: #fff;
+}
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
 
@@ -69,31 +82,12 @@
 .projects-container {
   background: black;
 }
-.navbar-default {
-    background-color: #1E1E24;
-    border-color: #1E1E24;
-}
-.navbar {
-    border-radius: 0px;
-}
-.navbar > a {
-  color: #fff;
-}
 .carousel .item {
   background-color: #B71C1C;
 }
 .footer {
   background
 }
-.hero {
-  background-image:url("http://i.imgur.com/SOSlQJp.jpg");
-  background-repeat:no-repeat;
-  background-position:right center;
-}
-.about p {
-
-}
-
 /* STICKY FOOTER
 -------------------------------------------------- */
 
@@ -119,6 +113,14 @@ footer {
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
 }
-
-/* RESPONSIVE CSS
+/* JUMBOTRON
 -------------------------------------------------- */
+.jumbotron {
+  background-image: url(http://i.imgur.com/SOSlQJp.jpg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 572px;
+}
