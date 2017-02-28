@@ -69,6 +69,30 @@
 .projects-container {
   background: black;
 }
+.navbar-default {
+    background-color: #1E1E24;
+    border-color: #1E1E24;
+}
+.navbar {
+    border-radius: 0px;
+}
+.navbar > a {
+  color: #fff;
+}
+.carousel .item {
+  background-color: #B71C1C;
+}
+.footer {
+  background
+}
+.hero {
+  background-image:url("http://i.imgur.com/SOSlQJp.jpg");
+  background-repeat:no-repeat;
+  background-position:right center;
+}
+.about p {
+
+}
 
 /* STICKY FOOTER
 -------------------------------------------------- */
