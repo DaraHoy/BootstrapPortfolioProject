@@ -6,14 +6,11 @@
   border: none;
   padding-bottom: 10px;
   padding-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0 auto;
 }
 .navbar-default {
     background-color: #1E1E24;
     border-color: #fff;
-}
-.navbar {
-
 }
 .navbar > a {
   color: #fff;
@@ -74,7 +71,9 @@
   padding: 40px;
   color: #444;
 }
-
+#skills {
+  text-align: center;
+}
 
 /* PROJECTS CONTAINER
 -------------------------------------------------- */

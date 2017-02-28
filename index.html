@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="main.css">
   <title>HTML Portfolio</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <!-- Hero Unit -->
   <div class="jumbotron">
 
@@ -27,12 +27,15 @@
         </button>
       </div>
 
+
+
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
         <ul class="nav navbar-nav">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Contact Info</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -89,7 +92,7 @@
 <!-- About Me -->
 <div class="container">
   <div class="about">
-    <h2>About Me</h2>
+    <h2 id="about">About Me</h2>
     <p>Actually helvetica thundercats, mixtape lo-fi fanny pack mumblecore vinyl hella paleo. Lyft 8-bit helvetica pitchfork, yr lo-fi chia. Celiac photo booth man bun, trust fund drinking vinegar readymade etsy intelligentsia letterpress crucifix disrupt pinterest vegan kinfolk. Forage gastropub hammock, salvia banh mi hella slow-carb keffiyeh. Pitchfork pok pok butcher retro, schlitz tumeric literally. Asymmetrical hot chicken post-ironic umami scenester, lumbersexual chia typewriter roof party before they sold out fam disrupt. Vexillologist raw denim kitsch, austin try-hard dreamcatcher mixtape chia sriracha post-ironic.</p>
     <p>Meditation tattooed typewriter, deep v meggings single-origin coffee roof party salvia vaporware hell of. Roof party intelligentsia edison bulb, blue bottle wolf paleo vexillologist distillery authentic vaporware narwhal. Kitsch distillery humblebrag skateboard forage. VHS cred put a bird on it irony, pour-over brooklyn humblebrag pabst chambray everyday carry. Deep v air plant schlitz hell of, gluten-free paleo copper mug. Narwhal fanny pack viral banjo ethical, you probably haven't heard of them crucifix slow-carb messenger bag bitters photo booth poke banh mi irony street art. Polaroid readymade squid pork belly, quinoa 3 wolf moon vegan listicle waistcoat authentic sriracha freegan raclette.</p>
   </div>
@@ -97,21 +100,22 @@
 
 <!-- Skills -->
 <div class="marketing">
+  <h2 id="skills">Skills</h2>
   <div class="container">
       <div class="row">
         <div class="col-sm-4 col-md-4">
           <i class="fa fa-html5 fa"></i>
-          <h2>HTML &amp; CSS</h2>
+          <h3>HTML &amp; CSS</h3>
           <p>Selvage 90's pork belly, cliche selfies everyday carry lyft listicle tumblr portland 8-bit brooklyn.</p>
         </div>
         <div class="col-sm-4 col-md-4">
           <span></span>
-          <h2>JavaScript</h2>
+          <h3>JavaScript</h3>
           <p>Woke tofu gentrify 90's before they sold out pug XOXO, affogato sustainable kinfolk kogi.</p>
         </div>
         <div class="col-sm-4 col-md-4">
           <i class="icon-angular-alt"></i>
-          <h2>AngularJS</h2>
+          <h3>AngularJS</h3>
           <p>Distillery put a bird on it listicle humblebrag, normcore organic street art echo park YOLO portland.</p>
         </div>
       </div>
@@ -121,7 +125,7 @@
 <!-- Projects -->
 <div class="container">
   <div class="text-center">
-    <h2>Projects</h2>
+    <h2 id="projects">Projects</h2>
   </div>
   <div class="row">
     <div class="col-sm-6 col-md-4">
@@ -161,7 +165,7 @@
 <div class="footer">
   <div class="container">
     <h2>Get in touch</h2>
-    <p>Most of the time I live in the cloud and can't be seen but occasionally come down for interviews and donuts. <a  href="mailto:darahoy@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a></p>
+    <p>Download Resume<a  href="mailto:darahoy@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a></p>
   </div>
 
 </div>
