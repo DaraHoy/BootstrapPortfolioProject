@@ -123,3 +123,9 @@ footer {
   margin-bottom: 0px;
   height: 572px;
 }
+/* Devicon
+-------------------------------------------------- */
+
+#angular-icon {
+   font-size: 60px;
+ }
